@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+}
+a.more-link{
+	display: none;
+}
+.hero{
+	height:67%;
+	background: azure url(../images/blog2.jpg) no-repeat center;
+    background-size: 100% 100%;
+    border-bottom: solid 4px rgb(11,97,128);
+}
+/*************** Hero BAR********************/
+#bar{
+	width: 50%;
+	height: 100px;
+	border-top: 1px solid rgb(11,97,128);
+}
+#bar h1{
+	font-family: proximasbold;
+	line-height: 100px;
+	font-size: 60px;
+	text-align: center;
+}
+/***************START MAIN*******************/
+#main{
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#content{
+	width: 680px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.meh{
+	width: 300px;
+	margin-bottom: 40px;
+}
+#content img{
+	width: 100%;
+}
+h2{
+	font-family: proximasbold;
+	padding-left: 5px;
+}
+#content p{
+	font-family: proxima reg;
+	width: 100%;
+	padding-left: 10px; 
+}
+div#calender{
+    padding-left: 13px;
+    overflow: scroll;
+}
+@media screen and (max-width: 1093px){
+	#main{
+		justify-content: initial;
+	}
+	#content{
+		margin: auto;
+	}	
+	#calender-container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.info{
+		margin-right: 30px;
+	}
+}
+@media screen and (max-width: 720px){
+	#content{
+		width: 100%;
+	}
+	.meh{
+		width: 90%;
+		margin: 0 auto 40px;
+	}
+}
+@media screen and (max-width: 500px){
+	.title{
+		font-size: 25px;
+		line-height: 50px;
+	}
+}
+/*******END MAIN******/
+footer{
+		font-family:Proxima reg;
+		border-top:lightgrey 1px solid;
+		line-height:1.618;
+		padding: 20px 0;
+		width: 100%;
+		bottom: 0;
+		background-color: white;
+		font-size: 12px;
+	}
+
+.left-footer{
+	display: inline-block;
+	border-right: 2px solid #efefef;
+	width: 49%;
+	line-height:3;
+	color: black;
+}
+.left-container{
+	width:40%;
+}
+.right-footer{
+	display: inline-block;
+	width: 49%;
+	line-height:2;
+	float: right;
+	color: black;
+}	
+footer > div.right-footer > span.left{float:left;font-weight:bolder;}
+/*	p{font-style:italic;width:75%;}*/
+	.icons{text-align:center;margin-top:20px;}
+footer *{
+	margin: 0 auto;
+}
+.intro-container2{
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	background-color: #0B6180;
+	text-align: center;
+	color: white;
+	padding: 35px;
+}
+.intro-container2 h1{
+	font-size: 50px;
+}
+@media screen and (max-width: 600px){
+	.hero{
+	height:67%;
+	background: azure url(../images/blog.jpg) no-repeat center;
+   	background-size: 100% 100%;
+    border-bottom: solid 4px rgb(11,97,128);
+	}
+	.mobile-toggle{
+		background: #34495E url(assets/images/nav.svg) no-repeat center center;
+		height: 50px;
+		width: 50px;
+	}
+	.main_h{
+		padding: 6px 0;
+	}
+	nav{
+		margin: 0;
+	}
+	.info{
+		width: 300px;
+	}
+	#calender{
+		width:600px;
+		height:500px;
+		overflow:scroll;
+	}
+}

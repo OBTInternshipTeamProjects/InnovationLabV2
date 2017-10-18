@@ -1,0 +1,302 @@
+.hero{
+	height: 67%;
+    border-bottom: solid 4px rgb(11,97,128);
+}
+.one{
+	background: azure url(../images/adults2.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+}
+.two{
+	background: azure url(../images/youth2.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+}
+.three{
+	background: azure url(../images/immigrant2.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+}
+.four{
+	background: azure url(../images/business_leader2.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+}
+.intro-container2{
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	background-color: #0B6180;
+	text-align: center;
+	color: white;
+	padding: 35px;
+}
+.intro-container2 h1{ 
+	font-size: 30px;
+}
+#code{
+	position: relative;
+    width: 60%;
+}
+/***************START MAIN*******************/
+#main{
+	padding-top: 40px;
+	margin-bottom: 100px;
+}
+#containit{
+	display: flex;
+}
+#program-name{
+	margin: 20px 0 70px 70px;
+	font-size: 40px;
+}
+#container{
+	min-height: 500px;
+}
+#calender{
+	height: 475px;
+	/*width: 620px;*/
+	overflow: scroll;
+	border-left: solid 2px;
+	padding-left: 30px;
+	position: absolute;
+	right: 10px;
+}
+#calender h1{
+	margin-bottom: 30px;
+}
+.info{
+	margin-bottom: 30px;
+}
+.date{
+	width: 100px;
+	height: 100px;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 8px;
+}
+.date p{
+	margin: 0;	
+	font-size: 25px;
+	width: 100%;
+}
+.num{
+	font-weight: bold;
+	font-size: 30px;
+}
+.title{
+	margin: 36px 0 0 25px;
+}
+img{
+	width: 60px;
+}
+.stuff{
+	display: flex;
+	margin-bottom: 50px;]
+}
+.icon{
+	height: 60px;
+	border:solid 2px;
+	border-radius: 40px;
+	margin-left: -41px;
+	padding: 7px;
+	background-color: white;
+}
+.words{
+	margin-left: 20px;
+	width: 600px;
+} 
+.words p{
+	font-weight: bold;
+    font-size: 1.1em;
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 10px;
+    max-width: 300px;
+}
+.box {
+    height: 500px;
+}
+@keyframes slide {
+  0% {
+    max-height: 0%;
+  }
+  100% {
+    max-height: 100%;
+  }
+}
+#line{
+  float: left;
+  margin-left: 50px;
+}
+.drop{
+	animation: 3.5s ease-out 0s 1 slide;
+	background: rgb(255,54,194);
+	width: 2px;
+	height: 380px;
+}
+.purple{
+	animation: 3.5s ease-out 0s 1 slide;
+	background: rgb(179, 48, 180);
+	width: 2px;
+	height: 380px;
+}
+.green{
+	animation: 3.5s ease-out 0s 1 slide;
+	background: rgb(6,236,84);
+	width: 2px;
+	height: 380px;
+}
+.yellow{
+	animation: 3.5s ease-out 0s 1 slide;
+	background: rgb(216,253,0);
+	width: 2px;
+	height: 380px;
+}
+/*******END*******/
+/*media Queries*/
+@media screen and (max-width: 673px){
+		.logo{
+			width: 200px;
+		}
+	}
+@media screen and (max-width: 600px){
+	.closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	.partners{
+			min-width: 0px;
+		}
+		.partners h1{
+			font-size: 10px;	
+		}
+		.right-footer{
+			height: auto;
+		}
+		.left-footer{
+			height: auto;
+		}
+		footer{
+			min-width: 0px;
+			height: auto;
+			display: flex;
+		}
+		#mySidenav{
+			display: block;
+		}
+}
+
+@media screen and (max-width: 1200px){
+	#calender{
+		position: initial;
+		margin-left: 50px;
+		border-left: none;
+		border-bottom: 2px solid #0B6180;
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 675px){
+		#containit{
+		display: block;
+	}
+		.logo{
+			width: 250px;
+		}
+	}
+@media screen and (max-width: 319px){
+	#three{
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 600px){
+	@keyframes slide {
+	  0% {
+	    height: 0px;
+	  }
+	  100% {
+	    height: 250px;
+	  }
+	}
+	.one{
+	background: azure url(../images/adults.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+	}
+	.two{
+	background: azure url(../images/youth.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+	}
+	.three{
+	background: azure url(../images/immigrant.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+	}
+	.four{
+	background: azure url(../images/business_leader.jpg) no-repeat center bottom;
+	background-size: 100% 100%;
+	}
+	.main_h{	
+			padding: 6px 0;
+		}
+	#line{
+		margin-left: 50px;
+	}
+	.drop2{
+		height: 250px;
+		animation: 3s ease-out 0s 1 slide;
+	}
+
+	.drop{
+		height: 460px;
+	}
+	#program-name{
+		text-align: center;
+		margin: 20px 0 70px 0;
+	}
+	.words p{
+		padding-left: 10px;
+	}
+	#container{
+		    margin-bottom: 0px;
+    		min-height: 350px;
+	}
+	#calender{
+		margin-top: 120px;
+		margin-left: 5%;
+		position: relative;
+		max-width: 100%;
+	}
+	#calender p{
+		width: 100%;
+	}
+	h1{
+		font-size: 22px;
+	}
+	.words2{
+		padding-right: 15px;
+		margin-left: 10px;
+	}
+	.words2 p{
+		font-size: 17px;
+	}
+	.right-footer{
+			height: auto;
+		}
+		.left-container{
+			width: 100%;
+			font-size: 10px;
+			height: 100%;
+			text-align: center;
+			padding-top: 40px;
+		}
+		.left-footer{
+			height: auto;
+		}
+		footer{
+			min-width: 0px;
+			height: auto;
+			display: flex;
+		}
+		#mySidenav{
+			display: block;
+		}
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex,nofollow" />
+	<title>WordPress &rsaquo; Setup Configuration File</title>
+	<link rel='stylesheet' id='buttons-css'  href='http://www.innovationlabic.com/wordpress/wp-includes/css/buttons.min.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='install-css'  href='http://www.innovationlabic.com/wordpress/wp-admin/css/install.min.css?ver=4.8.1' type='text/css' media='all' />
+</head>
+<body class="wp-core-ui">
+<p id="logo"><a href="https://wordpress.org/" tabindex="-1">WordPress</a></p>
+<h1 class="screen-reader-text">Successful database connection</h1>
+<p>All right, sparky! You&#8217;ve made it through this part of the installation. WordPress can now communicate with your database. If you are ready, time now to&hellip;</p>
+
+<p class="step"><a href="install.php?language=en_US" class="button button-large">Run the install</a></p>
+<script type='text/javascript' src='http://www.innovationlabic.com/wordpress/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.innovationlabic.com/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.innovationlabic.com/wordpress/wp-admin/js/language-chooser.min.js?ver=4.8.1'></script>
+</body>
+</html>
