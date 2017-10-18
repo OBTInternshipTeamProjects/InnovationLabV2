@@ -180,6 +180,6 @@
 				else
 					$('.drop_down_nav').toggle();
 			}
-</script>		
+</script>
 </body>
 </html>
